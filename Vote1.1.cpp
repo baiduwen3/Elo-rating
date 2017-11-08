@@ -31,7 +31,7 @@ char fRatings [ ] = "Ratings.txt";
 
  ifstream fN(fNames);
  ifstream fR(fRatings);
- 
+  
    
    for (int c = 0; c < Num; c++){
    	fN.getline( Names[ c ], 200 );	
